@@ -1,0 +1,10 @@
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\bin\Debug\netcoreapp2.1\databaseentities101.deps.json
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\bin\Debug\netcoreapp2.1\databaseentities101.dll
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\obj\Debug\netcoreapp2.1\databaseentities101.csproj.CoreCompileInputs.cache
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\obj\Debug\netcoreapp2.1\databaseentities101.AssemblyInfoInputs.cache
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\obj\Debug\netcoreapp2.1\databaseentities101.AssemblyInfo.cs
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\bin\Debug\netcoreapp2.1\databaseentities101.runtimeconfig.json
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\bin\Debug\netcoreapp2.1\databaseentities101.runtimeconfig.dev.json
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\bin\Debug\netcoreapp2.1\databaseentities101.pdb
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\obj\Debug\netcoreapp2.1\databaseentities101.dll
+D:\SDS\Lunch-n-learn\databaseentities101\databaseentities101\databaseentities101\obj\Debug\netcoreapp2.1\databaseentities101.pdb

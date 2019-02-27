@@ -1,0 +1,11 @@
+D:\SDS\EFCore101\EFCore101.Data\bin\Debug\netcoreapp2.2\EFCore101.Data.deps.json
+D:\SDS\EFCore101\EFCore101.Data\bin\Debug\netcoreapp2.2\EFCore101.Data.runtimeconfig.json
+D:\SDS\EFCore101\EFCore101.Data\bin\Debug\netcoreapp2.2\EFCore101.Data.runtimeconfig.dev.json
+D:\SDS\EFCore101\EFCore101.Data\bin\Debug\netcoreapp2.2\EFCore101.Data.dll
+D:\SDS\EFCore101\EFCore101.Data\bin\Debug\netcoreapp2.2\EFCore101.Data.pdb
+D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.csprojAssemblyReference.cache
+D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.csproj.CoreCompileInputs.cache
+D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.AssemblyInfoInputs.cache
+D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.AssemblyInfo.cs
+D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.dll
+D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.pdb
