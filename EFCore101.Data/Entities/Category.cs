@@ -14,6 +14,14 @@ namespace EFCore101.Data.Entities
         public string Name { get; set; }
 
         [InverseProperty(nameof(Product.CategoryNavigation))]
-        public List<Product> Products { get; set; }
+        public IEnumerable<Product> Products { get; set; } = new List<Product>();
+
+        public int? ParentCategoryId { get; set; }
+
+        [ForeignKey(nameof(ParentCategoryId))]
+        public Category ParentCategory { get; set; }
+
+        [InverseProperty(nameof(ParentCategory))]
+        public IEnumerable<Category> ChildrenCategories { get; set; } = new List<Category>();
     }
 }

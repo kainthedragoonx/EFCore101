@@ -4,14 +4,16 @@ using EFCore101.Data.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EFCore101.Data.Migrations
 {
     [DbContext(typeof(MagicDbContext))]
-    partial class MagicDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190228173847_supercategories")]
+    partial class supercategories
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,29 +49,6 @@ namespace EFCore101.Data.Migrations
                     b.ToTable("Categories","Store");
                 });
 
-            modelBuilder.Entity("EFCore101.Data.Entities.Employee", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("Created");
-
-                    b.Property<string>("FirstName");
-
-                    b.Property<string>("LastName");
-
-                    b.Property<DateTime>("Modified");
-
-                    b.Property<byte[]>("RowVersion")
-                        .IsConcurrencyToken()
-                        .ValueGeneratedOnAddOrUpdate();
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Employees","Store");
-                });
-
             modelBuilder.Entity("EFCore101.Data.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -79,8 +58,6 @@ namespace EFCore101.Data.Migrations
                     b.Property<int>("CategoryId");
 
                     b.Property<DateTime>("Created");
-
-                    b.Property<int>("EmployeeId");
 
                     b.Property<DateTime>("Modified");
 
@@ -97,8 +74,6 @@ namespace EFCore101.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.HasIndex("EmployeeId");
-
                     b.ToTable("Products","Store");
                 });
 
@@ -114,11 +89,6 @@ namespace EFCore101.Data.Migrations
                     b.HasOne("EFCore101.Data.Entities.Category", "CategoryNavigation")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("EFCore101.Data.Entities.Employee", "EmployeeNavigation")
-                        .WithMany("Products")
-                        .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618

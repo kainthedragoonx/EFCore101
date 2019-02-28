@@ -4,14 +4,16 @@ using EFCore101.Data.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EFCore101.Data.Migrations
 {
     [DbContext(typeof(MagicDbContext))]
-    partial class MagicDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190228182721_anothermigrationforstuff")]
+    partial class anothermigrationforstuff
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
