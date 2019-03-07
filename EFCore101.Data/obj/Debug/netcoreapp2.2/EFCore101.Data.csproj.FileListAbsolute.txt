@@ -8,4 +8,3 @@ D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.AssemblyI
 D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.AssemblyInfo.cs
 D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.dll
 D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.pdb
-D:\SDS\EFCore101\EFCore101.Data\obj\Debug\netcoreapp2.2\EFCore101.Data.csprojAssemblyReference.cache

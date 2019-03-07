@@ -12,8 +12,8 @@ namespace EFCore101.Data.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        [InverseProperty(nameof(Product.EmployeeNavigation))]
-        public IEnumerable<Product> Products { get; set; } = new List<Product>();
+        //[InverseProperty(nameof(Product.EmployeeNavigation))]
+        //public IEnumerable<Product> Products { get; set; } = new List<Product>();
 
     }
 }

@@ -16,8 +16,8 @@ namespace EFCore101.Data.Entities
         [ForeignKey(nameof(CategoryId))]
         public Category CategoryNavigation { get; set; }
 
-        public int EmployeeId { get; set; }
-        [ForeignKey(nameof(EmployeeId))]
-        public Employee EmployeeNavigation { get; set; }
+        //public int EmployeeId { get; set; }
+        //[ForeignKey(nameof(EmployeeId))]
+        //public Employee EmployeeNavigation { get; set; }
     }
 }

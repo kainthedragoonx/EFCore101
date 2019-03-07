@@ -17,9 +17,15 @@ namespace EFCore101.Data.Database
         public DbSet<Product> Products { get; set; }
         public DbSet<Employee> Employees { get; set; }
 
+        public DbSet<Role> Roles { get; set; }
+
+        public DbSet<EmployeeProductRole> EmployeeProductRoles { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<EmployeeProductRole>().HasIndex(x => new {x.ProductId, x.RoleId}).IsUnique();
         }
     }
 }
